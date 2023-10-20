@@ -1,0 +1,65 @@
+# Query: #71767b
+# Flags: IgnoreExcludeSettings
+# Including: ./twitter/src/
+# Excluding: text-[color:var(--color-baseSecondary)]
+# ContextLines: 1
+
+16 results - 7 files
+
+twitter\src\component\modals\AppearanceModal.js:
+   9              <div className='p-8 pt-0'>
+  10:                         <p className='text-center text-[color:var(--color-baseSecondary)] leading-5 text-[15px] mb-5'>
+  11                              Bu ayarlar, bu tarayıcıdaki tüm X hesaplarını etkiler.
+
+twitter\src\component\rightbar\footer\Footer.js:
+  10          <footer className='mb-4 px-4 flex flex-wrap gap-2'>
+  11:             <Link to='/' className='text-[color:var(--color-baseSecondary)] leading-4 text-[13px] hover:underline '>Hizmet Şartları</Link>
+  12:             <Link to='/' className='text-[color:var(--color-baseSecondary)] leading-4 text-[13px]  hover:underline  '>Gizlilik Politikası</Link>
+  13:             <Link to='/' className='text-[color:var(--color-baseSecondary)] leading-4 text-[13px]  hover:underline '>Çeraz Politikası</Link>
+  14:             <Link to='/' className='text-[color:var(--color-baseSecondary)] leading-4 text-[13px]  hover:underline '>Imprint </Link>
+  15:             <Link to='/' className='text-[color:var(--color-baseSecondary)] leading-4 text-[13px]  hover:underline '>Erişebilirlik </Link>
+  16:             <Link to='/' className='text-[color:var(--color-baseSecondary)] leading-4 text-[13px]  hover:underline '>Reklam Bilgisi </Link>
+  17             <div className='w-full flex gap-2'>
+
+  19                  <Popover.Button
+  20:                  className='text-[color:var(--color-baseSecondary)] outline-none leading-4 text-[13px]  hover:underline inline-flex items-center '>
+  21                      Daha fazla  
+
+  32              </Popover>
+  33:             <p className='text-[color:var(--color-baseSecondary)] leading-4 text-[13px] '> © 2023 X Corp.</p>
+  34             </div>
+
+twitter\src\component\rightbar\search\Search.js:
+  19                  
+  20:             <svg viewBox="0 0 24 24" height={18.75} className='min-w-[32px] text-[color:var(--color-baseSecondary)] ' >
+  21                  <path fill='#fff' d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z"></path></svg>
+
+  33                      <div className='absolute top-full w-[350px] translate-y-px bg-black shadow-box rounded-lg max-h-[calc(80vh -53px)] text-center min-h-[100px] ' >
+  34:                         <p className='pt-5 p-3 text-[color:var(--color-baseSecondary)] leading-5 '>
+  35                              Kişileri, listeleri veya anahtar kelimeleri aramayı dene
+
+twitter\src\component\rightbar\topics\topic\Topic.js:
+   8        >
+   9:         <div className='text-[13px] text-[color:var(--color-baseSecondary)] leading-4 '>
+  10              {item.title} 
+
+  22          <Popover.Button>
+  23:         <button className='outline-none w-[34.75px] h-[34.75px] text-[color:var(--color-baseSecondary)]  rounded-full  flex items-center justify-center hover:bg-[#1d9bf01a] hover:text-[#1d9bf0] transition-colors '>
+  24          <svg viewBox="0 0 24 24" width={18.75} ><path fill='currentColor' d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path></svg>
+
+twitter\src\component\rightbar\who-to-follow\WhoFollow.js:
+  24                      </div>
+  25:                     <div className='text-[15px] text-[color:var(--color-baseSecondary)]'>
+  26                          @{user.username}
+
+twitter\src\component\sidebar\account\Account.js:
+  19          <h6 className='font-bold leading-[20px] '>{account.fullname}</h6>
+  20:         <div className='text-[color:var(--color-baseSecondary)] '>
+  21              @{account.username}
+
+twitter\src\component\store\appearance\index.js:
+  14  		base: '#e7e9ea',
+  15  		base: '#e7e9ea',
+  16: 		//baseSecondary: '#71767b',
+  16  		baseSecondary: 'red'
+  17  		baseSecondary: 'red'

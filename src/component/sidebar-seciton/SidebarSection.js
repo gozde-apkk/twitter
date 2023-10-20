@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function SidebarSection ({children, title , more}){
     return (
-        <section className='bg-[#16181c] mb-4 overflow-hidden rounded-2xl border border-[#16181c] '>
+        <section className='bg-[color:var(--background-secondary)] mb-4 overflow-hidden rounded-2xl border border-[color:var(--background-secondary)] '>
             <h5 className='py-3 px-4 flex items-center font-extrabold text-xl text-[#e7e9ea] leading-6' >
                 {title}
                 </h5>

@@ -1,11 +1,13 @@
 
-import './component/css/style.css'
-import MainLayout from './component/layout/MainLayout';
+import './assest/css/style.css';
+import MainLayout from '../src/layout/MainLayout';
+import Authorization from './layout/Authorization';
 
 function App() {
   return (
-    <div className="bg-black">
-      <MainLayout/>
+    <div className="bg-black ">
+      <Authorization/>
+      
     </div>
   );
 }

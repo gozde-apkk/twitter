@@ -1,11 +1,13 @@
 import {createBrowserRouter} from "react-router-dom";
-import Explore from "../explore/Explore";
-import Home from "../home/Home";
-import Notification from "../notification/Notification";
-import MainLayout from "../layout/MainLayout";
-import Profile from "../profile/Profile";
-import Messages from "../messages/Messages";
-import Lists from "../lists/Lists";
+import Explore from "../../pages/explore/Explore";
+import Home from "../../pages/home/Home";
+import Notification from "../../pages/notification/Notification";
+import MainLayout from "../../layout/MainLayout";
+import Profile from "../../pages/profile/Profile";
+import Messages from "../../pages/messages/Messages";
+import Lists from "../../pages/lists/Lists";
+import Authorization from "../../layout/Authorization";
+import Logout from "../../pages/logout/Logout";
 
 const routes = createBrowserRouter([
     {
@@ -39,6 +41,16 @@ const routes = createBrowserRouter([
 
         ]
     },
+    {
+        
+        path: '/logout',
+        element : <Authorization/>,
+        children: [
+            {
+                index:true,
+                element:<Logout/>
+            }]
+    }
   
 ])
 
