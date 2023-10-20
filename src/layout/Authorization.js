@@ -5,12 +5,21 @@
 import React from 'react';
 
 import '../assest/logout/style.css';
-import Logout from '../pages/logout/Logout';
+
+import RightPart from '../component/register/RightPart';
+import LeftPart from '../component/register/LeftPart';
+import Footer from '../component/register/Footer';
+
 
 const Authorization = () => {
     return (
      <div className='aut-container'>
-      <Logout/>
+        <div className='top'> 
+        <RightPart/>
+        <LeftPart/>
+        </div>
+        <Footer/>
+ 
      </div>
     );
 }
