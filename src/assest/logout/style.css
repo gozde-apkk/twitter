@@ -7,13 +7,18 @@
     flex-direction: row-reverse;
     display: flex;
     background-color: black;
-    border: 1px solid red;
+   
+    padding: 12px;
 }
 .aut-container {
     height: 832px;
     width: 1519px;
     box-sizing: border-box;
     min-height: 707px;
+    
+    line-height: 16px;
+    font-weight: 400;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     
 }
 /**
@@ -48,7 +53,7 @@
    
 }
 .content-left{
-    border: 1px solid red;
+   
     width: 760px;
     height: 765px;
 }

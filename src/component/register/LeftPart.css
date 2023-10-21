@@ -1,0 +1,59 @@
+.footer{
+    width: 1519px;
+    height: 78px;
+    transition-duration: 100ms;
+    background-color: black;
+    display: flex;
+}
+
+nav{
+    flex-wrap: wrap;
+    width: 1510px;
+    height: 72px;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+nav a {
+
+    color: rgb(113, 118, 123);
+    padding-right: 16px;
+    line-height: 16px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+
+.content-left{
+    width: 760px;
+    height: 760px;
+    overflow: hidden;
+    flex: 1;
+}
+.context-left {
+    position: relative;
+    top: 155px;
+    
+    padding: 32px;
+}
+
+.left-svg{
+    max-height: 380px;
+    height: 50%;
+    color: rgb(231, 233, 234);
+    position: relative;
+    left: 139px;
+    
+}
+
+.left-svg path {
+    color: rgb(231, 233, 234);
+}

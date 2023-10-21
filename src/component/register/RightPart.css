@@ -6,22 +6,22 @@
     width: 827px;
     height: 760px;
     padding: 16px;
-    border: 1px solid red;
+    
 }
 
 
-.content-left{
-    width: 760px;
-    height: 728px;
-}
+
 .right-one {
     
     padding: 20px;
-    height: 692px;
+    height: 730px;
     max-width: 760px;
-    border: 1px solid yellow;
-   
+    margin-left: 48px;
+    font-weight: bolder;
+}
 
+.context span{
+    letter-spacing: -1.2px;
 }
 
 .context{
@@ -32,30 +32,81 @@
     font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin-bottom: 48px;
     margin-top: 48px;
-    border: 1px solid green;
+    position: relative;
+    bottom: 15px;
     width: 664px;
     height: 168px;
 }
-.context span {
-    color: inherit;
+
+.apple{
+   
+        color: rgb(15, 20, 25);
+        width: 45px;
+        height: 21px;
+        margin-right: 4px;
+        vertical-align: text-bottom;
+        position: relative;
+         left: 53px;
+         top: 8px;
+    
+}
+
+.apple-span {
+    position: relative;
+    left: 7px;
+    bottom: 9px;
+}
+
+.span-content{
+    color: #e7e9ea;
     font: inherit;
     white-space: inherit;
 }
+.goggle{
+    height: 18px;
+    margin-right: 8px;
+    min-width: 18px;
+    width: 18px;
+    position: relative;
+    left: 66px;
+    top: 8px;
+}
+.form-first{
+    justify-content: center;
+}
+.goggle-span{
+    flex-grow: 1;
+    font-family: "Google Sans",arial,sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    position: relative;
+    left: 15px;
+    bottom: 9px;
+
+}
 .context-two{
     width: 720px;
-    height: 38px;
-    border: 1px solid green;
+    height: 36px;
     color: rgb(231, 233, 234);
-    font-size: 31px;
+    font-size: 35px;
     margin-bottom: 32px;
     line-height: 32px;
     font-size: 31px;
+    position: relative;
+    bottom: 15px;
+}
+
+.context-two span {
+    font-size: larger;
+    font-weight: 600;
 }
 
 .context-three{
     width: 716px;
     height: 356px;
-    border: 1px solid green;
+    
 }
 
 .form{
@@ -65,28 +116,41 @@
     right: 18px;
     position: relative;
     bottom: 12px;
+    display: flex;
 }
 
 
 .btn {
     border: 1px solid white;
-    width: 298px;
-    height: 42px;
+    width: 300px;
+    height: 40px;
     margin: -2px 5px 1px;
     background-color: white;
     border-radius: 33.5px;
 }
 
+
 .line{
-    width: 300px;
-    max-width: 380px;
+    width: 27px;
+    max-width: 20px;
     color: white;
     display: flex;
+    margin-left: -4px;
+    margin-right: -4px;
+    margin-bottom: 5px;
+    margin-top: 4px;
 
 }
 .line span {
     position: relative;
     top: -12px;
+}
+.first-line{
+    background-color: rgb(47, 51, 54);
+    height: 1px;
+    width: 111px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 
@@ -97,8 +161,26 @@ hr{
 #blue{
     background-color: blue;
 }
+.right-end{
+    width: 720px;
+    height: 88px;
+    margin-top: 40px;
+}
+.end-one{
+    width: 380px;
+    height: 20px;
+    color: rgb(231, 233, 234);
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+
 .cookie{
     width: 300px;
+    position: relative;
+    bottom: 14px;
     height: 32px;
     color: rgb(113, 118, 123);
     line-height: 12px;
@@ -123,4 +205,5 @@ hr{
 
 .cookie a {
     cursor: pointer;
+    color: rgb(29, 155, 240);
 }
