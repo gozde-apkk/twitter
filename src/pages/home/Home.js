@@ -1,12 +1,19 @@
 import React from 'react';
+import Header from '../../component/header/Header';
+import '../../component/header/Header.css'
+import Tab from '../../component/header/Tab';
 
 
 
 const Home = () => {
     return (
-        <div>
+        <>
+         <Header  title="Anasayfa"/>
+         home component!
          
-        </div>
+         </>
+       
+        
     );
 }
 

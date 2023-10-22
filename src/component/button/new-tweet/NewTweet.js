@@ -5,7 +5,7 @@ import Button from '../button'
 function NewTweet() {
   return (
     <div className='py-4 w-[90%] '>
-        <Button size="large">Gönder</Button>
+        <Button className="px-4">Gönder</Button>
     </div>
   )
 }
