@@ -1,7 +1,6 @@
 
 
 
-
 .content-right{
     width: 827px;
     height: 760px;
@@ -57,10 +56,14 @@
     bottom: 9px;
 }
 
+
+
 .span-content{
     color: #e7e9ea;
     font: inherit;
     white-space: inherit;
+    font-size:   revert;
+    letter-spacing: -1.2px;
 }
 .goggle{
     height: 18px;

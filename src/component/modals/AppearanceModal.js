@@ -1,16 +1,15 @@
-import {Link} from "react-router-dom";
+
 
 import React from 'react';
-import Button from "../button/button";
-import {useAppearance} from "../store/appearance/hooks/hooks";
-import classNames from "classnames";
 import {setBackgroundColor, setBoxShadow, setColor, setFontSize} from "../store/appearance/actions/actions";
 import {colors, fontSizes} from "../sidebar/utils/colors";
 import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
+import Button from "../button/button";
+import {useAppearance} from "../store/appearance/hooks/hooks";
+import classNames from "classnames";
 
-const AppearanceModal = ({close}) => {
-
-
+export default function AppearanceModal({close}) {
 
 	const {backgroundColor, color, fontSize} = useAppearance()
 
@@ -256,4 +255,3 @@ const AppearanceModal = ({close}) => {
 		</div>
 	)
 }
-export default AppearanceModal

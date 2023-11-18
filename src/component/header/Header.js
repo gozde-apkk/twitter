@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import Tab from "./Tab";
+import ForYou from  "./ForYou"
 
 
 
@@ -19,7 +20,7 @@ export default function Header ({title}){
                 </Tab.Item>
             </Tab.Items>
             <Tab.Content id ="for-you">
-                1.Context
+                 <ForYou/>
             </Tab.Content>
             <Tab.Content id = "followings">
                 2.Context
